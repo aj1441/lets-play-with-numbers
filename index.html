@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Play with Numbers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Let's Play with Numbers</h1>
+<form action="" method="get" id="form">
+	<div class="form-data">
+		<div class="customer-info">
+			<div class="input-wrapper">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+			<div class="input-wrapper">
+				<label for="favNum1">First Favorite Number</label>
+				<input type="number" id="favNum1" name="favNum1" required>
+			</div>
+			<div class="input-wrapper">
+				<label for="favNum2">Second Favorite Number</label>
+				<input type="number" id="favNum2" name="favNum2" required>
+			</div>
+		</div>
+		<fieldset class="service_option">
+			<legend>Which opperation would you like to perform?</legend>
+			<input type="radio" id="add" value="add" name="operation">
+			<label for="add" class="service">Add</label>
+			<br>
+			<input type="radio" id="subtract" value="subtract" name="operation">
+			<label for="subtract" class="service">Subtract</label>
+			<br>
+			<input type="radio" id="multiply" value="multiply" name="operation">
+			<label for="multiply" class="service">Multiply</label>
+			<br>
+			<input type="radio" id="divide" value="divide" name="operation">
+			<label for="divide" class="service">Divide</label>
+
+		</fieldset>
+	</div>
+	<div class="button-wrapper">
+		<input type="submit" id="submit" value="Submit">
+	</div>
+	<p id="sentence"></p>
+</form>
+<script src="js/custom.js" type="module"> </script>
+</body>
+</html>

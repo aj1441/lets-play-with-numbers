@@ -1,0 +1,51 @@
+body {
+	background-color: #5c415d;
+	color: #dbd053;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: auto;
+	text-align: center;
+}
+
+form {
+	margin: 3rem;
+	padding: 3rem;
+	border: 10px black solid;
+	background-color: #997090;
+	border-radius: 2px;
+}
+
+.customer-info {
+	font-size: 1.5rem;
+}
+
+.service_option {
+	font-size: 1.5rem;
+	border: none;
+	border-top: 1px solid turquoise;
+	margin-top: 2rem;
+}
+
+label {
+	padding: 0.25rem;
+}
+
+.service {
+	padding: 0.25rem;
+}
+
+#submit {
+	background-color: #f48668;
+}
+
+#submit:hover {
+	background-color: #e2da78;
+	cursor: pointer;
+}
+
+p {
+	font-size: 2rem;
+	color: turquoise;
+}
